@@ -1,0 +1,75 @@
+{
+  "component_id": "buzzer_active",
+  "display_name": "主動式蜂鳴器",
+  "category": "actuator",
+  "electrical": {
+    "supply_voltage_min_v": 3.0,
+    "supply_voltage_max_v": 5.0,
+    "recommended_gpio_current_ma": 30
+  },
+  "pins": [
+    {
+      "id": "+",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "-",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "buzzer_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      12.0,
+      9.5,
+      12.0
+    ],
+    "placeholder": {
+      "shape": "cylinder",
+      "color": "#131417"
+    },
+    "desktop_model": "models/buzzer_12mm.glb",
+    "model_transform": {
+      "tint_body": true
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "buzzer",
+  "evidence": [
+    {
+      "field": "electrical.recommended_gpio_current_ma",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    }
+  ]
+}

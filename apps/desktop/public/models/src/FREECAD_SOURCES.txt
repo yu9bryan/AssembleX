@@ -1,0 +1,14 @@
+Staging GLBs - provenance (all: units mm, +Y up, right-handed; converted STEP -> cascadio -> trimesh, rotX(-90deg) & x1000; geometry otherwise unmodified, no decimation needed)
+
+License for all five files: CC-BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+Source repo: FreeCAD/FreeCAD-library (https://github.com/FreeCAD/FreeCAD-library), repo README: "All Parts in this repository are licensed under CC-BY 3.0".
+Attribution: "FreeCAD-library contributors" (+ commit author named below). Original STEP authors not recorded in file headers.
+
+arduino_nano.glb      <- Computing/SingleBoardComputers/Arduino/Arduino Nano Rev3/Nano-Rev3_0.step   (commit 2be7a39a67, Charles Fox, 2026-10-20; STEP header dated 2015)
+arduino_mega2560.glb  <- Computing/SingleBoardComputers/Arduino/Arduino Mega/arduino-mega.step        (commit 2be7a39a67, Charles Fox; STEP header dated 2014; pre-R3 header layout)
+esp32_devkit_v1.glb   <- Computing/SingleBoardComputers/ESP32/ESP32_DOIT_DevKit_v1/ESP32_DOIT_DevKit_V1.step (commit 71fae7e9bd, Charles Fox, 2026-10-06)
+hc_sr04.glb           <- Sensors/Ultrasonic Sensors/HC-SR04.step                                       (commit 71fae7e9bd, Charles Fox; STEP header dated 2017; header pitch modelled as 2.0mm, real part 2.54mm)
+sg90_servo.glb        <- Electrical Parts/Servos/SG-90/Servo-sg90.step                                  (commit bb0aaaaa3a, Gafeju, 2015-08-26)
+
+Raw URLs: https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/master/<path above, URL-encoded>
+Pin/outline cross-check: Arduino official Eagle CAD (CC BY-SA 4.0) from docs.arduino.cc A000005/A000067/A000057 -cad-files.zip

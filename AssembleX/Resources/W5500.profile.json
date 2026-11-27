@@ -1,0 +1,15 @@
+{
+ "id": "W5500",
+ "displayName": "W5500 乙太網路模組",
+ "mesh": "W5500.mesh",
+ "boardWidthMM": 23.0,
+ "boardDepthMM": 25.0,
+ "baseHueMin": -140,
+ "baseHueMax": -88,
+ "satMin": 18,
+ "baseRGB": [
+  0.051,
+  0.388,
+  0.004
+ ]
+}

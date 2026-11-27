@@ -1,0 +1,63 @@
+{
+  "component_id": "diode_1n4148",
+  "display_name": "1N4148 二極體",
+  "category": "passive",
+  "electrical": {
+    "supply_voltage_max_v": 100.0
+  },
+  "pins": [
+    {
+      "id": "A",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "K",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "d1n4148_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      7.6,
+      2.0,
+      2.0
+    ],
+    "placeholder": {
+      "shape": "resistor",
+      "color": "#d9cfc0"
+    },
+    "desktop_model": "models/diode_do35.glb",
+    "model_source": "vendor"
+  },
+  "behavior_model": "diode",
+  "evidence": []
+}

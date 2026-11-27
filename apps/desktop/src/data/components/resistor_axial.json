@@ -1,0 +1,74 @@
+{
+  "component_id": "resistor_axial",
+  "display_name": "軸向電阻",
+  "category": "passive",
+  "electrical": {},
+  "pins": [
+    {
+      "id": "1",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "2",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        10.16,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [
+    {
+      "key": "resistance_ohm",
+      "label": "電阻值",
+      "unit": "Ω",
+      "default": 330
+    },
+    {
+      "key": "tolerance_pct",
+      "label": "誤差",
+      "unit": "%",
+      "default": 5
+    }
+  ],
+  "geometry": {
+    "asset_id": "resistor_axial_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      10.16,
+      2.4,
+      2.4
+    ],
+    "placeholder": {
+      "shape": "resistor",
+      "color": "#c8a062"
+    },
+    "desktop_model": "models/resistor_axial.glb",
+    "model_source": "vendor"
+  },
+  "behavior_model": "resistor",
+  "evidence": []
+}

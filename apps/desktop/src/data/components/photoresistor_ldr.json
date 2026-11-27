@@ -1,0 +1,61 @@
+{
+  "component_id": "photoresistor_ldr",
+  "display_name": "光敏電阻 (LDR)",
+  "category": "sensor",
+  "electrical": {},
+  "pins": [
+    {
+      "id": "1",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "2",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "ldr_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      5.0,
+      6.0,
+      2.0
+    ],
+    "placeholder": {
+      "shape": "cylinder",
+      "color": "#c8a85a"
+    },
+    "desktop_model": "models/ldr.glb",
+    "model_source": "vendor"
+  },
+  "behavior_model": "ldr",
+  "evidence": []
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyLists-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 其餘鍵由 GENERATE_INFOPLIST_FILE 產生；這裡只放 INFOPLIST_KEY_ 做不到的陣列／字典 -->
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_assemblex._tcp</string>
+	</array>
+	<!-- 用系統相機掃電腦上的 QR code（assemblex://ip:port/?t=token）直接打開 App 並連線 -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>yu8bryan.AssembleX.link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>assemblex</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

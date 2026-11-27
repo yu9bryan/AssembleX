@@ -1,0 +1,131 @@
+{
+  "component_id": "dht22",
+  "manufacturer": "Aosong",
+  "display_name": "DHT22 溫濕度感測器",
+  "category": "sensor",
+  "electrical": {
+    "supply_voltage_min_v": 3.3,
+    "supply_voltage_max_v": 6.0,
+    "quiescent_current_ma": 0.05
+  },
+  "pins": [
+    {
+      "id": "VCC",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "DATA",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "NC",
+      "type": "nc",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "GND",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "dht22_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      15.1,
+      25.0,
+      7.7
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#c6c3bb"
+    },
+    "desktop_model": "models/dht22.glb",
+    "model_transform": {
+      "materials": [
+        {
+          "match": "BODY_shell",
+          "color": "#cfd0cb",
+          "metal": 0,
+          "rough": 0.82,
+          "transmission": 0
+        },
+        {
+          "match": "BODY_inner",
+          "color": "#232426",
+          "metal": 0,
+          "rough": 0.9,
+          "transmission": 0
+        }
+      ]
+    },
+    "model_source": "datasheet"
+  },
+  "behavior_model": "dht22",
+  "evidence": [
+    {
+      "field": "electrical.supply_voltage_min_v",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    },
+    {
+      "field": "pins[].position_mm",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,1475 @@
+{
+  "component_id": "arduino_mega2560",
+  "manufacturer": "Arduino",
+  "display_name": "Arduino Mega 2560",
+  "category": "microcontroller_board",
+  "revision": "r3",
+  "electrical": {
+    "logic_voltage_v": 5.0,
+    "supply_voltage_min_v": 7.0,
+    "supply_voltage_max_v": 12.0,
+    "recommended_gpio_current_ma": 20,
+    "absolute_max_gpio_current_ma": 40,
+    "input_high_threshold_v": 3.0,
+    "input_low_threshold_v": 1.5
+  },
+  "pins": [
+    {
+      "id": "D8",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        41.656,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D9",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM"
+      ],
+      "position_mm": [
+        39.116,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D10",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM",
+        "SS"
+      ],
+      "position_mm": [
+        36.576,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D11",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM",
+        "MOSI"
+      ],
+      "position_mm": [
+        34.036,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D12",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        31.496,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D13",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "SCK",
+        "LED_BUILTIN"
+      ],
+      "position_mm": [
+        28.956,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "GND2",
+      "type": "ground",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        26.416,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "AREF",
+      "type": "power_in",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        23.876,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D7",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        45.72,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D6",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM"
+      ],
+      "position_mm": [
+        48.26,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D5",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM"
+      ],
+      "position_mm": [
+        50.8,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D4",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        53.34,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D3",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM",
+        "INT1"
+      ],
+      "position_mm": [
+        55.88,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D2",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "INT0"
+      ],
+      "position_mm": [
+        58.42,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D1",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "TX"
+      ],
+      "position_mm": [
+        60.96,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D0",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "RX"
+      ],
+      "position_mm": [
+        63.5,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "RESET",
+      "type": "digital_io",
+      "functions": [
+        "RESET"
+      ],
+      "position_mm": [
+        33.02,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "3V3",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        35.56,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "5V",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        38.1,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "GND1",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        40.64,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "GND3",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        43.18,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "VIN",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        45.72,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A0",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        50.8,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D14"
+      ]
+    },
+    {
+      "id": "A1",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        53.34,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D15"
+      ]
+    },
+    {
+      "id": "A2",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        55.88,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D16"
+      ]
+    },
+    {
+      "id": "A3",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        58.42,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D17"
+      ]
+    },
+    {
+      "id": "A4",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        60.96,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D18"
+      ]
+    },
+    {
+      "id": "A5",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        63.5,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D19"
+      ]
+    },
+    {
+      "id": "A6",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        66.04,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A7",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        68.58,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A8",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        73.66,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A9",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        76.2,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A10",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        78.74,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A11",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        81.28,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A12",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        83.82,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A13",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        86.36,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A14",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        88.9,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A15",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        91.44,
+        10,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D14",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        68.58,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D15",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        71.12,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D16",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        73.66,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D17",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        76.2,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D18",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        78.74,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D19",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        81.28,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D20",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        83.82,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D21",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        86.36,
+        10,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D22",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        5.08
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D23",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        5.08
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D24",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        7.62
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D25",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        7.62
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D26",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        10.16
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D27",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        10.16
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D28",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        12.7
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D29",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        12.7
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D30",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D31",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D32",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        17.78
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D33",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        17.78
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D34",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        20.32
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D35",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        20.32
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D36",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        22.86
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D37",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        22.86
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D38",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        25.4
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D39",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        25.4
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D40",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        27.94
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D41",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        27.94
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D42",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        30.48
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D43",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        30.48
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D44",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        33.02
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D45",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        33.02
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D46",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        35.56
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D47",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        35.56
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D48",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        38.1
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D49",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        38.1
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D50",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        40.64
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D51",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        40.64
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D52",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        93.98,
+        10,
+        43.18
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D53",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        96.52,
+        10,
+        43.18
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "mega2560_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      101.6,
+      13.0,
+      53.34
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#0f8ba8"
+    },
+    "desktop_model": "models/arduino_mega2560.glb",
+    "model_transform": {
+      "offset_mm": [
+        50.8,
+        0,
+        26.67
+      ],
+      "materials": [
+        {
+          "match": "1b6c6a|29ca88",
+          "color": "#c9ccd1",
+          "metal": 0.9,
+          "rough": 0.28
+        },
+        {
+          "match": "2888d7|24e90e",
+          "color": "#c3c6cc",
+          "metal": 0.8,
+          "rough": 0.32
+        },
+        {
+          "match": "41de58",
+          "color": "#0f7276",
+          "rough": 0.55
+        }
+      ]
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "avr_atmega2560",
+  "evidence": [
+    {
+      "field": "pins[].position_mm",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified",
+      "source": "前段沿用 UNO R3 官方座標；A6–A15、D14–D53 依 Mega 外形推估"
+    }
+  ]
+}

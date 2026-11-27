@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A85E46A3317F097992C501A /* LanClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEE489B06499CF56DEBE7C /* LanClient.swift */; };
+		0DC1AB9856977BEC4310E699 /* ModuleTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DB63DC0CC286907A2EF8F /* ModuleTrackerView.swift */; };
+		1CB8974AE30C9ED024BA6A0F /* W5500.mesh.json in Resources */ = {isa = PBXBuildFile; fileRef = 3963DE2EEEE13AFB44067DF7 /* W5500.mesh.json */; };
+		2E76FABFC48B842FC700122F /* ARGuideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C688F9AE3B2BC47E2C1415 /* ARGuideModel.swift */; };
+		306CD432F19A3091828DB8B2 /* esp32_devkit_v1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2D40656D3754EA9646304ADA /* esp32_devkit_v1.usdz */; };
+		393D161D09402A66537B5BFB /* LinkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF06E28BDBBEAC83596E0 /* LinkSession.swift */; };
+		39B2B84E555B4983750FA5EE /* sg90_servo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BD3714C7D4BFF9618D3EF725 /* sg90_servo.usdz */; };
+		3B8E01A3BA2E9BC8A5EBD866 /* hc_sr04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A7C99E728E7886B2CD013FBD /* hc_sr04.usdz */; };
+		3E2C8DF41B89CD4F32987D09 /* LanEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C408380AAE227896C29258 /* LanEndpoint.swift */; };
+		A1B2C3D4E5F6071829304A51 /* RecentProjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304A52 /* RecentProjects.swift */; };
+		3E6C9F6C8CCDD40D4E9F9238 /* BreadboardRails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B07482A38CDF5EA99866D9 /* BreadboardRails.swift */; };
+		3F2D4012A32674FB9B83C7F8 /* LiDARFitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6694FA01D40BE4C5A4DF9B6D /* LiDARFitter.swift */; };
+		41C08300D9AFEE0EFA9180B7 /* ComponentProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDCE00AA376FEE02D22DD23 /* ComponentProfile.swift */; };
+		45663ABC3FA945CDB67C9988 /* diode_do35.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F403F60112C556229B6B311E /* diode_do35.usdz */; };
+		4E118FF0BFEAFE9AD6A65A0E /* sample_project.json in Resources */ = {isa = PBXBuildFile; fileRef = D83A0F8F7DA2E4B3BA82B668 /* sample_project.json */; };
+		53A0A362C0EB9E3447664764 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D064350FCFB26F8432BFA /* CameraPreviewView.swift */; };
+		580676A29C0B830AEE9287FA /* to92.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0B04514D444525419F9E2442 /* to92.usdz */; };
+		5E5F6C9FB53428FD76BB8F13 /* BreadboardSegModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707EB7529DDB5EAAD393CAE5 /* BreadboardSegModel.swift */; };
+		5EF052C6E38D46572CDA27F0 /* SeededDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF78001C49AD9EDC521C22C /* SeededDetection.swift */; };
+		5FFBC879AABD634DB4C98812 /* ssd1306_096.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EA6239E8C3793F73D48E5614 /* ssd1306_096.usdz */; };
+		6228F9051012BC181210EE47 /* ARBoardDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88793D8AA61A8A96342D3676 /* ARBoardDetector.swift */; };
+		67176686104DE78FCDE507D8 /* models.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDF68DCF382AE2C1F8B9EB /* models.json */; };
+		6E9B56F9CD0F0131032EA889 /* WiringOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E7C94E61D003102386FB2 /* WiringOverlayView.swift */; };
+		701DF9B7F0B64064C96860DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1647AB32A0184EB3A73455 /* ContentView.swift */; };
+		70DDB43B1CDC4D7776F22AAE /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF327B80C9BFC2C506DEF4 /* ScannerModel.swift */; };
+		72098B6FFBF83A52EDED1E92 /* SegOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48B33B7470BB2F766C3CE6F /* SegOverlayView.swift */; };
+		736C7A4B262E184A5AEFBE2A /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1781FCD58F45B924FF4ED8 /* BonjourBrowser.swift */; };
+		77F4CAA2F9930B23B90287C9 /* BoardPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7114C51966D13CF27165EA /* BoardPipeline.swift */; };
+		7DB3CE5FFE497D4532A05760 /* ModuleTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6722DC29362F881F23B0F4 /* ModuleTracker.swift */; };
+		83B98B7FB4E0294A68150DEB /* CADMeshEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09196C6839E66303C4608370 /* CADMeshEntity.swift */; };
+		88133A1FB7464412385F6E15 /* L298N.profile.json in Resources */ = {isa = PBXBuildFile; fileRef = 8750DF7F61473D6BE5BBB20E /* L298N.profile.json */; };
+		8D27FA0358F94D9E97F84B37 /* BreadboardSeg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 49F72E2AC54976C970B96FD1 /* BreadboardSeg.mlpackage */; };
+		9103BFDF4188E0FFC8134EE4 /* pushbutton_6mm.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 85B651523F06AE457A22D2AA /* pushbutton_6mm.usdz */; };
+		960BDF969B27DB11DE20B508 /* buzzer_12mm.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D92E900D7F3D7529B02C7FBD /* buzzer_12mm.usdz */; };
+		9AC954ABF98B291A7645D4A9 /* HoleResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A17B9239680AB5652D5DD8 /* HoleResolver.swift */; };
+		9CF554D892A01BFA3EA022A1 /* BreadboardResult+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740BFB7CBC3D87DD4A27749 /* BreadboardResult+Display.swift */; };
+		A475CE0FB5CD743F2052549E /* HoleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C70DE56CD683AA4D5931F /* HoleOverlayView.swift */; };
+		A67037F69BD23C6AE17A98AE /* CADFitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EE6A088E9F78E1992BEC36 /* CADFitter.swift */; };
+		A92CEC176617E66367896540 /* ldr.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7E913A971211F5BED28781F7 /* ldr.usdz */; };
+		AA5039CBF354139AB5CF6A0B /* BreadboardDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A295AA6F44FDC85880BC77 /* BreadboardDetector.swift */; };
+		AF84FC1426C61F06CD2AB05B /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485DE46A8106D406B2678A28 /* CameraController.swift */; };
+		B02B85A840909B5B1EE10276 /* arduino_nano.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BCDE37E31C055C4A76CC3621 /* arduino_nano.usdz */; };
+		B2184E145CECA3D7685D3FE7 /* LanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3EAB1756D41CE2CFD07E3 /* LanModels.swift */; };
+		B3B67D19F2FA63693C159EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE423404BD4D278AB31B5B /* Assets.xcassets */; };
+		B633A00560FA1F98F3B004FF /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE906D42B3D3F05FA42881 /* GuideView.swift */; };
+		BB645B42D113F15F57918946 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B25422FF6E4F17F98FF73E /* ScannerView.swift */; };
+		BB7F08696ED6923E36AE2FD7 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B77E20204375FEC2477EBC /* QRScannerView.swift */; };
+		CFB432858ED9C6067F9C9D7F /* W5500.profile.json in Resources */ = {isa = PBXBuildFile; fileRef = CFC5DC346DFDEFFC1109A4D1 /* W5500.profile.json */; };
+		D1DB88FA9CD6F3DC8E34EB5F /* BoardPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352150144DD1A0C139FAA788 /* BoardPose.swift */; };
+		D52D2A7ACAAE8E9057A0B05B /* SimulatedBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB14D745EA29CF5CC66F05 /* SimulatedBoard.swift */; };
+		B0A7F17E5D2C3B4A5968C701 /* BoardFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7F17E5D2C3B4A5968C702 /* BoardFit.swift */; };
+		D6095AE7A8DE24DEBB745D29 /* ModulePoseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E266CEA6291D9DBAEFFB8C3 /* ModulePoseDetector.swift */; };
+		D8EC3355229D68E748D659F3 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0C944434E15487D7F3CC4 /* ConnectView.swift */; };
+		DE762EC09292CD92E7948982 /* BoardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5DE807311E5903DB6EE678 /* BoardScene.swift */; };
+		E07D6AC258964321405EE29B /* dht22.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10ACE7959D1BF5CC0DD44E8C /* dht22.usdz */; };
+		E55A028DAC2C916B5C19EA4D /* led_5mm.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 63FCDA7CBD9B34AF9AE21586 /* led_5mm.usdz */; };
+		EC30B873DD7F18D8E23D2D5A /* L298N.mesh.json in Resources */ = {isa = PBXBuildFile; fileRef = 929023B4374BBFF518B3576D /* L298N.mesh.json */; };
+		ED706DCC1B4FFD1575B2432A /* resistor_axial.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 33B89BA08AE0CF813B503A5E /* resistor_axial.usdz */; };
+		F08C4FE6582FF64E6B1ED88B /* capacitor_radial.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E6F75E259D3E7744BC2CC7F5 /* capacitor_radial.usdz */; };
+		F2BC2C8E47BDCC4E41145725 /* trimpot_3296w.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F43C289739915C591FF663E4 /* trimpot_3296w.usdz */; };
+		F4F8D17398CEDAA28FED4E09 /* ModuleTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D995526AF1A152B1CF2A9 /* ModuleTrackerModel.swift */; };
+		F85D7042465460F7766DF917 /* AssembleXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26652067EC9DC5AADE1B7E21 /* AssembleXApp.swift */; };
+		FA4F8E134C3CE2FA84ED8EFE /* arduino_mega2560.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8C0BC0CAF9A692EADD9184A9 /* arduino_mega2560.usdz */; };
+		FC815B6CA985A00CFD21E147 /* arduino_uno.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 370A8684BB5502F3C03E8BF9 /* arduino_uno.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09196C6839E66303C4608370 /* CADMeshEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADMeshEntity.swift; sourceTree = "<group>"; };
+		09B25422FF6E4F17F98FF73E /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		0A6DB63DC0CC286907A2EF8F /* ModuleTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTrackerView.swift; sourceTree = "<group>"; };
+		0B04514D444525419F9E2442 /* to92.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = to92.usdz; sourceTree = "<group>"; };
+		10ACE7959D1BF5CC0DD44E8C /* dht22.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dht22.usdz; sourceTree = "<group>"; };
+		14EF327B80C9BFC2C506DEF4 /* ScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
+		15BE906D42B3D3F05FA42881 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		20FB14D745EA29CF5CC66F05 /* SimulatedBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatedBoard.swift; sourceTree = "<group>"; };
+		B0A7F17E5D2C3B4A5968C702 /* BoardFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardFit.swift; sourceTree = "<group>"; };
+		231D064350FCFB26F8432BFA /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		23B07482A38CDF5EA99866D9 /* BreadboardRails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadboardRails.swift; sourceTree = "<group>"; };
+		26652067EC9DC5AADE1B7E21 /* AssembleXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssembleXApp.swift; sourceTree = "<group>"; };
+		2A1647AB32A0184EB3A73455 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D1781FCD58F45B924FF4ED8 /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		2D40656D3754EA9646304ADA /* esp32_devkit_v1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = esp32_devkit_v1.usdz; sourceTree = "<group>"; };
+		327AF06E28BDBBEAC83596E0 /* LinkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSession.swift; sourceTree = "<group>"; };
+		33B89BA08AE0CF813B503A5E /* resistor_axial.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = resistor_axial.usdz; sourceTree = "<group>"; };
+		352150144DD1A0C139FAA788 /* BoardPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardPose.swift; sourceTree = "<group>"; };
+		370A8684BB5502F3C03E8BF9 /* arduino_uno.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = arduino_uno.usdz; sourceTree = "<group>"; };
+		38B77E20204375FEC2477EBC /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		3963DE2EEEE13AFB44067DF7 /* W5500.mesh.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = W5500.mesh.json; sourceTree = "<group>"; };
+		39EE6A088E9F78E1992BEC36 /* CADFitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADFitter.swift; sourceTree = "<group>"; };
+		450E7C94E61D003102386FB2 /* WiringOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiringOverlayView.swift; sourceTree = "<group>"; };
+		485DE46A8106D406B2678A28 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		49F72E2AC54976C970B96FD1 /* BreadboardSeg.mlpackage */ = {isa = PBXFileReference; path = BreadboardSeg.mlpackage; sourceTree = "<group>"; };
+		4AEDF68DCF382AE2C1F8B9EB /* models.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models.json; sourceTree = "<group>"; };
+		4BDCE00AA376FEE02D22DD23 /* ComponentProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentProfile.swift; sourceTree = "<group>"; };
+		4EA0C944434E15487D7F3CC4 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		63FCDA7CBD9B34AF9AE21586 /* led_5mm.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = led_5mm.usdz; sourceTree = "<group>"; };
+		64C408380AAE227896C29258 /* LanEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanEndpoint.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6071829304A52 /* RecentProjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProjects.swift; sourceTree = "<group>"; };
+		6694FA01D40BE4C5A4DF9B6D /* LiDARFitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDARFitter.swift; sourceTree = "<group>"; };
+		707EB7529DDB5EAAD393CAE5 /* BreadboardSegModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadboardSegModel.swift; sourceTree = "<group>"; };
+		77C688F9AE3B2BC47E2C1415 /* ARGuideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGuideModel.swift; sourceTree = "<group>"; };
+		7AAE423404BD4D278AB31B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E913A971211F5BED28781F7 /* ldr.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ldr.usdz; sourceTree = "<group>"; };
+		7F1D995526AF1A152B1CF2A9 /* ModuleTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTrackerModel.swift; sourceTree = "<group>"; };
+		85A17B9239680AB5652D5DD8 /* HoleResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleResolver.swift; sourceTree = "<group>"; };
+		85B651523F06AE457A22D2AA /* pushbutton_6mm.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pushbutton_6mm.usdz; sourceTree = "<group>"; };
+		8750DF7F61473D6BE5BBB20E /* L298N.profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = L298N.profile.json; sourceTree = "<group>"; };
+		88793D8AA61A8A96342D3676 /* ARBoardDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBoardDetector.swift; sourceTree = "<group>"; };
+		8A6722DC29362F881F23B0F4 /* ModuleTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTracker.swift; sourceTree = "<group>"; };
+		8C0BC0CAF9A692EADD9184A9 /* arduino_mega2560.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = arduino_mega2560.usdz; sourceTree = "<group>"; };
+		8E266CEA6291D9DBAEFFB8C3 /* ModulePoseDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulePoseDetector.swift; sourceTree = "<group>"; };
+		901C70DE56CD683AA4D5931F /* HoleOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleOverlayView.swift; sourceTree = "<group>"; };
+		929023B4374BBFF518B3576D /* L298N.mesh.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = L298N.mesh.json; sourceTree = "<group>"; };
+		A740BFB7CBC3D87DD4A27749 /* BreadboardResult+Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreadboardResult+Display.swift"; sourceTree = "<group>"; };
+		A7C99E728E7886B2CD013FBD /* hc_sr04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hc_sr04.usdz; sourceTree = "<group>"; };
+		B48B33B7470BB2F766C3CE6F /* SegOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegOverlayView.swift; sourceTree = "<group>"; };
+		BCDE37E31C055C4A76CC3621 /* arduino_nano.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = arduino_nano.usdz; sourceTree = "<group>"; };
+		BD3714C7D4BFF9618D3EF725 /* sg90_servo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sg90_servo.usdz; sourceTree = "<group>"; };
+		CF7114C51966D13CF27165EA /* BoardPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardPipeline.swift; sourceTree = "<group>"; };
+		CFC5DC346DFDEFFC1109A4D1 /* W5500.profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = W5500.profile.json; sourceTree = "<group>"; };
+		D83A0F8F7DA2E4B3BA82B668 /* sample_project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample_project.json; sourceTree = "<group>"; };
+		D92E900D7F3D7529B02C7FBD /* buzzer_12mm.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = buzzer_12mm.usdz; sourceTree = "<group>"; };
+		D9DEE489B06499CF56DEBE7C /* LanClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanClient.swift; sourceTree = "<group>"; };
+		DF0F39D1F4079E88A517829E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E6B3EAB1756D41CE2CFD07E3 /* LanModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanModels.swift; sourceTree = "<group>"; };
+		E6F75E259D3E7744BC2CC7F5 /* capacitor_radial.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = capacitor_radial.usdz; sourceTree = "<group>"; };
+		E93746A05D6B013A84AB04FE /* AssembleX.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AssembleX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6239E8C3793F73D48E5614 /* ssd1306_096.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ssd1306_096.usdz; sourceTree = "<group>"; };
+		EEF78001C49AD9EDC521C22C /* SeededDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededDetection.swift; sourceTree = "<group>"; };
+		F403F60112C556229B6B311E /* diode_do35.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = diode_do35.usdz; sourceTree = "<group>"; };
+		F43C289739915C591FF663E4 /* trimpot_3296w.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = trimpot_3296w.usdz; sourceTree = "<group>"; };
+		F8A295AA6F44FDC85880BC77 /* BreadboardDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadboardDetector.swift; sourceTree = "<group>"; };
+		FE5DE807311E5903DB6EE678 /* BoardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16567E222CB9CCED5BECA064 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				485DE46A8106D406B2678A28 /* CameraController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		2099A38F6F322DCD8135536E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C0BC0CAF9A692EADD9184A9 /* arduino_mega2560.usdz */,
+				BCDE37E31C055C4A76CC3621 /* arduino_nano.usdz */,
+				370A8684BB5502F3C03E8BF9 /* arduino_uno.usdz */,
+				D92E900D7F3D7529B02C7FBD /* buzzer_12mm.usdz */,
+				E6F75E259D3E7744BC2CC7F5 /* capacitor_radial.usdz */,
+				10ACE7959D1BF5CC0DD44E8C /* dht22.usdz */,
+				F403F60112C556229B6B311E /* diode_do35.usdz */,
+				2D40656D3754EA9646304ADA /* esp32_devkit_v1.usdz */,
+				A7C99E728E7886B2CD013FBD /* hc_sr04.usdz */,
+				7E913A971211F5BED28781F7 /* ldr.usdz */,
+				63FCDA7CBD9B34AF9AE21586 /* led_5mm.usdz */,
+				4AEDF68DCF382AE2C1F8B9EB /* models.json */,
+				85B651523F06AE457A22D2AA /* pushbutton_6mm.usdz */,
+				33B89BA08AE0CF813B503A5E /* resistor_axial.usdz */,
+				BD3714C7D4BFF9618D3EF725 /* sg90_servo.usdz */,
+				EA6239E8C3793F73D48E5614 /* ssd1306_096.usdz */,
+				0B04514D444525419F9E2442 /* to92.usdz */,
+				F43C289739915C591FF663E4 /* trimpot_3296w.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		287735C70700E1B0D6CFA698 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				CF7114C51966D13CF27165EA /* BoardPipeline.swift */,
+				49F72E2AC54976C970B96FD1 /* BreadboardSeg.mlpackage */,
+				707EB7529DDB5EAAD393CAE5 /* BreadboardSegModel.swift */,
+				EEF78001C49AD9EDC521C22C /* SeededDetection.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		33E36B52ED174CEE1CCBA719 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				F8A295AA6F44FDC85880BC77 /* BreadboardDetector.swift */,
+				23B07482A38CDF5EA99866D9 /* BreadboardRails.swift */,
+				A740BFB7CBC3D87DD4A27749 /* BreadboardResult+Display.swift */,
+				39EE6A088E9F78E1992BEC36 /* CADFitter.swift */,
+				4BDCE00AA376FEE02D22DD23 /* ComponentProfile.swift */,
+				6694FA01D40BE4C5A4DF9B6D /* LiDARFitter.swift */,
+				8E266CEA6291D9DBAEFFB8C3 /* ModulePoseDetector.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		36FC3DDD7755F2C187B626C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93746A05D6B013A84AB04FE /* AssembleX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468B138EFDC50F721E5F0B6E /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				15BE906D42B3D3F05FA42881 /* GuideView.swift */,
+				85A17B9239680AB5652D5DD8 /* HoleResolver.swift */,
+				20FB14D745EA29CF5CC66F05 /* SimulatedBoard.swift */,
+				B0A7F17E5D2C3B4A5968C702 /* BoardFit.swift */,
+				450E7C94E61D003102386FB2 /* WiringOverlayView.swift */,
+				5D7A2FCA7ABC91C7129CA8EB /* AR */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		5BB6BB320DF79202C4A715AE = {
+			isa = PBXGroup;
+			children = (
+				6B827D6B4EC58913C1AD0C82 /* AssembleX */,
+				36FC3DDD7755F2C187B626C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7A2FCA7ABC91C7129CA8EB /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				88793D8AA61A8A96342D3676 /* ARBoardDetector.swift */,
+				77C688F9AE3B2BC47E2C1415 /* ARGuideModel.swift */,
+				352150144DD1A0C139FAA788 /* BoardPose.swift */,
+				FE5DE807311E5903DB6EE678 /* BoardScene.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		6B827D6B4EC58913C1AD0C82 /* AssembleX */ = {
+			isa = PBXGroup;
+			children = (
+				26652067EC9DC5AADE1B7E21 /* AssembleXApp.swift */,
+				7AAE423404BD4D278AB31B5B /* Assets.xcassets */,
+				2A1647AB32A0184EB3A73455 /* ContentView.swift */,
+				DF0F39D1F4079E88A517829E /* Info.plist */,
+				16567E222CB9CCED5BECA064 /* Camera */,
+				468B138EFDC50F721E5F0B6E /* Guide */,
+				DD595BB51CCE5292C0941973 /* Link */,
+				287735C70700E1B0D6CFA698 /* ML */,
+				6D521776494B7ED6D2923B0F /* Module */,
+				7F7B9E34D36794377F304908 /* Resources */,
+				CCCDE4BF62D97D79BB86DE16 /* Scanner */,
+				33E36B52ED174CEE1CCBA719 /* Vision */,
+			);
+			path = AssembleX;
+			sourceTree = "<group>";
+		};
+		6D521776494B7ED6D2923B0F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				09196C6839E66303C4608370 /* CADMeshEntity.swift */,
+				8A6722DC29362F881F23B0F4 /* ModuleTracker.swift */,
+				7F1D995526AF1A152B1CF2A9 /* ModuleTrackerModel.swift */,
+				0A6DB63DC0CC286907A2EF8F /* ModuleTrackerView.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		7F7B9E34D36794377F304908 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				929023B4374BBFF518B3576D /* L298N.mesh.json */,
+				8750DF7F61473D6BE5BBB20E /* L298N.profile.json */,
+				D83A0F8F7DA2E4B3BA82B668 /* sample_project.json */,
+				3963DE2EEEE13AFB44067DF7 /* W5500.mesh.json */,
+				CFC5DC346DFDEFFC1109A4D1 /* W5500.profile.json */,
+				2099A38F6F322DCD8135536E /* Models */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCCDE4BF62D97D79BB86DE16 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				231D064350FCFB26F8432BFA /* CameraPreviewView.swift */,
+				901C70DE56CD683AA4D5931F /* HoleOverlayView.swift */,
+				14EF327B80C9BFC2C506DEF4 /* ScannerModel.swift */,
+				09B25422FF6E4F17F98FF73E /* ScannerView.swift */,
+				B48B33B7470BB2F766C3CE6F /* SegOverlayView.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		DD595BB51CCE5292C0941973 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				2D1781FCD58F45B924FF4ED8 /* BonjourBrowser.swift */,
+				4EA0C944434E15487D7F3CC4 /* ConnectView.swift */,
+				D9DEE489B06499CF56DEBE7C /* LanClient.swift */,
+				64C408380AAE227896C29258 /* LanEndpoint.swift */,
+				A1B2C3D4E5F6071829304A52 /* RecentProjects.swift */,
+				E6B3EAB1756D41CE2CFD07E3 /* LanModels.swift */,
+				327AF06E28BDBBEAC83596E0 /* LinkSession.swift */,
+				38B77E20204375FEC2477EBC /* QRScannerView.swift */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320CD87DAEEA5CA613600DD3 /* AssembleX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E295D2E8F1073AA0261B62 /* Build configuration list for PBXNativeTarget "AssembleX" */;
+			buildPhases = (
+				0F191BAA101BAE7AD142BA77 /* Sources */,
+				09AA3B3D84A270AD285EDA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssembleX;
+			packageProductDependencies = (
+			);
+			productName = AssembleX;
+			productReference = E93746A05D6B013A84AB04FE /* AssembleX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE2BB6D56127618BFC2E6AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					320CD87DAEEA5CA613600DD3 = {
+						DevelopmentTeam = UNU747VFGT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C596A65045C64886AF27A61C /* Build configuration list for PBXProject "AssembleX" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5BB6BB320DF79202C4A715AE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36FC3DDD7755F2C187B626C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320CD87DAEEA5CA613600DD3 /* AssembleX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09AA3B3D84A270AD285EDA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B67D19F2FA63693C159EC4 /* Assets.xcassets in Resources */,
+				EC30B873DD7F18D8E23D2D5A /* L298N.mesh.json in Resources */,
+				88133A1FB7464412385F6E15 /* L298N.profile.json in Resources */,
+				1CB8974AE30C9ED024BA6A0F /* W5500.mesh.json in Resources */,
+				CFB432858ED9C6067F9C9D7F /* W5500.profile.json in Resources */,
+				FA4F8E134C3CE2FA84ED8EFE /* arduino_mega2560.usdz in Resources */,
+				B02B85A840909B5B1EE10276 /* arduino_nano.usdz in Resources */,
+				FC815B6CA985A00CFD21E147 /* arduino_uno.usdz in Resources */,
+				960BDF969B27DB11DE20B508 /* buzzer_12mm.usdz in Resources */,
+				F08C4FE6582FF64E6B1ED88B /* capacitor_radial.usdz in Resources */,
+				E07D6AC258964321405EE29B /* dht22.usdz in Resources */,
+				45663ABC3FA945CDB67C9988 /* diode_do35.usdz in Resources */,
+				306CD432F19A3091828DB8B2 /* esp32_devkit_v1.usdz in Resources */,
+				3B8E01A3BA2E9BC8A5EBD866 /* hc_sr04.usdz in Resources */,
+				A92CEC176617E66367896540 /* ldr.usdz in Resources */,
+				E55A028DAC2C916B5C19EA4D /* led_5mm.usdz in Resources */,
+				67176686104DE78FCDE507D8 /* models.json in Resources */,
+				9103BFDF4188E0FFC8134EE4 /* pushbutton_6mm.usdz in Resources */,
+				ED706DCC1B4FFD1575B2432A /* resistor_axial.usdz in Resources */,
+				4E118FF0BFEAFE9AD6A65A0E /* sample_project.json in Resources */,
+				39B2B84E555B4983750FA5EE /* sg90_servo.usdz in Resources */,
+				5FFBC879AABD634DB4C98812 /* ssd1306_096.usdz in Resources */,
+				580676A29C0B830AEE9287FA /* to92.usdz in Resources */,
+				F2BC2C8E47BDCC4E41145725 /* trimpot_3296w.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F191BAA101BAE7AD142BA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6228F9051012BC181210EE47 /* ARBoardDetector.swift in Sources */,
+				2E76FABFC48B842FC700122F /* ARGuideModel.swift in Sources */,
+				F85D7042465460F7766DF917 /* AssembleXApp.swift in Sources */,
+				77F4CAA2F9930B23B90287C9 /* BoardPipeline.swift in Sources */,
+				D1DB88FA9CD6F3DC8E34EB5F /* BoardPose.swift in Sources */,
+				DE762EC09292CD92E7948982 /* BoardScene.swift in Sources */,
+				736C7A4B262E184A5AEFBE2A /* BonjourBrowser.swift in Sources */,
+				AA5039CBF354139AB5CF6A0B /* BreadboardDetector.swift in Sources */,
+				3E6C9F6C8CCDD40D4E9F9238 /* BreadboardRails.swift in Sources */,
+				9CF554D892A01BFA3EA022A1 /* BreadboardResult+Display.swift in Sources */,
+				8D27FA0358F94D9E97F84B37 /* BreadboardSeg.mlpackage in Sources */,
+				5E5F6C9FB53428FD76BB8F13 /* BreadboardSegModel.swift in Sources */,
+				A67037F69BD23C6AE17A98AE /* CADFitter.swift in Sources */,
+				83B98B7FB4E0294A68150DEB /* CADMeshEntity.swift in Sources */,
+				AF84FC1426C61F06CD2AB05B /* CameraController.swift in Sources */,
+				53A0A362C0EB9E3447664764 /* CameraPreviewView.swift in Sources */,
+				41C08300D9AFEE0EFA9180B7 /* ComponentProfile.swift in Sources */,
+				D8EC3355229D68E748D659F3 /* ConnectView.swift in Sources */,
+				701DF9B7F0B64064C96860DD /* ContentView.swift in Sources */,
+				B633A00560FA1F98F3B004FF /* GuideView.swift in Sources */,
+				A475CE0FB5CD743F2052549E /* HoleOverlayView.swift in Sources */,
+				9AC954ABF98B291A7645D4A9 /* HoleResolver.swift in Sources */,
+				0A85E46A3317F097992C501A /* LanClient.swift in Sources */,
+				3E2C8DF41B89CD4F32987D09 /* LanEndpoint.swift in Sources */,
+				A1B2C3D4E5F6071829304A51 /* RecentProjects.swift in Sources */,
+				B2184E145CECA3D7685D3FE7 /* LanModels.swift in Sources */,
+				3F2D4012A32674FB9B83C7F8 /* LiDARFitter.swift in Sources */,
+				393D161D09402A66537B5BFB /* LinkSession.swift in Sources */,
+				D6095AE7A8DE24DEBB745D29 /* ModulePoseDetector.swift in Sources */,
+				7DB3CE5FFE497D4532A05760 /* ModuleTracker.swift in Sources */,
+				F4F8D17398CEDAA28FED4E09 /* ModuleTrackerModel.swift in Sources */,
+				0DC1AB9856977BEC4310E699 /* ModuleTrackerView.swift in Sources */,
+				BB7F08696ED6923E36AE2FD7 /* QRScannerView.swift in Sources */,
+				70DDB43B1CDC4D7776F22AAE /* ScannerModel.swift in Sources */,
+				BB645B42D113F15F57918946 /* ScannerView.swift in Sources */,
+				5EF052C6E38D46572CDA27F0 /* SeededDetection.swift in Sources */,
+				72098B6FFBF83A52EDED1E92 /* SegOverlayView.swift in Sources */,
+				D52D2A7ACAAE8E9057A0B05B /* SimulatedBoard.swift in Sources */,
+				B0A7F17E5D2C3B4A5968C701 /* BoardFit.swift in Sources */,
+				6E9B56F9CD0F0131032EA889 /* WiringOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FAF07F614476E95E63220EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		150E2AD874874602EEE4BED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNU747VFGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssembleX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AssembleX;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AssembleX 用相機辨識麵包板並標出每個孔位。";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "找到同一個 Wi-Fi 上的 AssembleX Studio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yu8bryan.AssembleX;
+				PRODUCT_NAME = AssembleX;
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1791FBDCA905570C2849329C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNU747VFGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssembleX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AssembleX;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AssembleX 用相機辨識麵包板並標出每個孔位。";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "找到同一個 Wi-Fi 上的 AssembleX Studio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yu8bryan.AssembleX;
+				PRODUCT_NAME = AssembleX;
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9E7DC86451B94A67F88DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98E295D2E8F1073AA0261B62 /* Build configuration list for PBXNativeTarget "AssembleX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791FBDCA905570C2849329C /* Debug */,
+				150E2AD874874602EEE4BED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C596A65045C64886AF27A61C /* Build configuration list for PBXProject "AssembleX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAF07F614476E95E63220EB /* Debug */,
+				CA9E7DC86451B94A67F88DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EE2BB6D56127618BFC2E6AD /* Project object */;
+}

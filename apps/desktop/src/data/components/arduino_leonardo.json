@@ -1,0 +1,686 @@
+{
+  "component_id": "arduino_leonardo",
+  "manufacturer": "Arduino",
+  "display_name": "Arduino Leonardo",
+  "category": "microcontroller_board",
+  "revision": "r3",
+  "electrical": {
+    "logic_voltage_v": 5.0,
+    "supply_voltage_min_v": 7.0,
+    "supply_voltage_max_v": 12.0,
+    "recommended_gpio_current_ma": 20,
+    "absolute_max_gpio_current_ma": 40,
+    "input_high_threshold_v": 3.0,
+    "input_low_threshold_v": 1.5
+  },
+  "pins": [
+    {
+      "id": "D8",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        41.656,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D9",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM"
+      ],
+      "position_mm": [
+        39.116,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D10",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM",
+        "SS"
+      ],
+      "position_mm": [
+        36.576,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D11",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM",
+        "MOSI"
+      ],
+      "position_mm": [
+        34.036,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D12",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        31.496,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D13",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "SCK",
+        "LED_BUILTIN"
+      ],
+      "position_mm": [
+        28.956,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "GND2",
+      "type": "ground",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        26.416,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "AREF",
+      "type": "power_in",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        23.876,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D7",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        45.72,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D6",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM"
+      ],
+      "position_mm": [
+        48.26,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D5",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM"
+      ],
+      "position_mm": [
+        50.8,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D4",
+      "type": "digital_io",
+      "functions": [
+        "GPIO"
+      ],
+      "position_mm": [
+        53.34,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D3",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "PWM",
+        "INT1"
+      ],
+      "position_mm": [
+        55.88,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D2",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "INT0"
+      ],
+      "position_mm": [
+        58.42,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D1",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "TX"
+      ],
+      "position_mm": [
+        60.96,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "D0",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "RX"
+      ],
+      "position_mm": [
+        63.5,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "NC",
+      "type": "nc",
+      "functions": [],
+      "position_mm": [
+        27.94,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "IOREF",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        30.48,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "RESET",
+      "type": "digital_io",
+      "functions": [
+        "RESET"
+      ],
+      "position_mm": [
+        33.02,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "3V3",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        35.56,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "5V",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        38.1,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "GND1",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        40.64,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "GND3",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        43.18,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "VIN",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        45.72,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": []
+    },
+    {
+      "id": "A0",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        50.8,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D14"
+      ]
+    },
+    {
+      "id": "A1",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        53.34,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D15"
+      ]
+    },
+    {
+      "id": "A2",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        55.88,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D16"
+      ]
+    },
+    {
+      "id": "A3",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        58.42,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D17"
+      ]
+    },
+    {
+      "id": "A4",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        60.96,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D18"
+      ]
+    },
+    {
+      "id": "A5",
+      "type": "analog_in",
+      "functions": [
+        "ADC",
+        "GPIO"
+      ],
+      "position_mm": [
+        63.5,
+        10.0,
+        50.8
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D19"
+      ]
+    },
+    {
+      "id": "SDA",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "I2C"
+      ],
+      "position_mm": [
+        21.336,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D2"
+      ]
+    },
+    {
+      "id": "SCL",
+      "type": "digital_io",
+      "functions": [
+        "GPIO",
+        "I2C"
+      ],
+      "position_mm": [
+        18.796,
+        10.0,
+        2.54
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "female_header",
+      "aliases": [
+        "D3"
+      ]
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "leonardo_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      68.58,
+      13.0,
+      53.34
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#0f8ba8"
+    },
+    "desktop_model": "models/arduino_uno.glb",
+    "model_transform": {
+      "unit_scale": 1000,
+      "offset_mm": [
+        34.29,
+        0,
+        26.67
+      ],
+      "keep_materials": true
+    },
+    "model_source": "borrowed"
+  },
+  "behavior_model": "avr_atmega32u4",
+  "evidence": [
+    {
+      "field": "pins[].position_mm",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified",
+      "source": "Arduino R3 排針標準（與 UNO R3 相同位置）"
+    }
+  ]
+}

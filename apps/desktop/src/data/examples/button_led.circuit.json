@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "project_id": "button_led",
+  "revision": 1,
+  "units": "mm",
+  "logical": {
+    "board": {
+      "instance_id": "mcu1",
+      "profile_id": "arduino_uno_r3",
+      "fqbn": "arduino:avr:uno"
+    },
+    "components": [
+      {
+        "id": "btn1",
+        "profile_id": "pushbutton_6mm",
+        "parameters": {}
+      },
+      {
+        "id": "r1",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 330
+        }
+      },
+      {
+        "id": "r2",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 10000
+        }
+      },
+      {
+        "id": "led1",
+        "profile_id": "generic_led_red",
+        "parameters": {}
+      }
+    ],
+    "nets": [
+      {
+        "id": "net_5v",
+        "pins": [
+          "mcu1.5V",
+          "r2.2"
+        ],
+        "role": "power",
+        "nominal_voltage_v": 5
+      },
+      {
+        "id": "net_gnd",
+        "pins": [
+          "mcu1.GND2",
+          "led1.cathode",
+          "btn1.3"
+        ],
+        "role": "ground"
+      },
+      {
+        "id": "net_btn",
+        "pins": [
+          "mcu1.D2",
+          "btn1.1",
+          "r2.1"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_led",
+        "pins": [
+          "mcu1.D9",
+          "r1.1"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_led_a",
+        "pins": [
+          "r1.2",
+          "led1.anode"
+        ],
+        "role": "signal"
+      }
+    ],
+    "firmware_bindings": {
+      "LED_PIN": "mcu1.D9",
+      "BUTTON_PIN": "mcu1.D2"
+    }
+  },
+  "physical": {
+    "breadboard": {
+      "instance_id": "bb1",
+      "profile_id": "breadboard_830",
+      "position_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "placements": [
+      {
+        "instance_id": "mcu1",
+        "position_mm": [
+          117,
+          0,
+          -14
+        ],
+        "rotation_deg": 180,
+        "pin_to_hole": {}
+      },
+      {
+        "instance_id": "btn1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "E14",
+          "2": "F14",
+          "3": "E16",
+          "4": "F16"
+        }
+      },
+      {
+        "instance_id": "r2",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "C14",
+          "2": "C18"
+        }
+      },
+      {
+        "instance_id": "r1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "E24",
+          "2": "E28"
+        }
+      },
+      {
+        "instance_id": "led1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "anode": "D28",
+          "cathode": "D29"
+        }
+      }
+    ],
+    "wires": [
+      {
+        "id": "w_5v",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.5V"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+38"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_gnd",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.GND2"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-24"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_btn",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D2"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "B14"
+        },
+        "color": "#f5a524",
+        "net_id": "net_btn"
+      },
+      {
+        "id": "w_btn_g",
+        "from": {
+          "kind": "hole",
+          "hole": "D16"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-12"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_pu",
+        "from": {
+          "kind": "hole",
+          "hole": "A18"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+14"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_led",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D9"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "C24"
+        },
+        "color": "#f5a524",
+        "net_id": "net_led"
+      },
+      {
+        "id": "w_led_g",
+        "from": {
+          "kind": "hole",
+          "hole": "A29"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-23"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_bridge_p",
+        "from": {
+          "kind": "hole",
+          "hole": "BOT+25"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+26"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      }
+    ]
+  },
+  "behavior": {
+    "type": "toggle",
+    "interval_ms": 150
+  }
+}

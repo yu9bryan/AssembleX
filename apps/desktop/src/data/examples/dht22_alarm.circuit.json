@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0",
+  "project_id": "dht22_alarm",
+  "revision": 1,
+  "units": "mm",
+  "logical": {
+    "board": {
+      "instance_id": "mcu1",
+      "profile_id": "arduino_uno_r3",
+      "fqbn": "arduino:avr:uno"
+    },
+    "components": [
+      {
+        "id": "dht1",
+        "profile_id": "dht22",
+        "parameters": {}
+      },
+      {
+        "id": "bz1",
+        "profile_id": "buzzer_active",
+        "parameters": {}
+      },
+      {
+        "id": "btn1",
+        "profile_id": "pushbutton_6mm",
+        "parameters": {}
+      },
+      {
+        "id": "r1",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 330
+        }
+      },
+      {
+        "id": "r2",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 10000
+        }
+      },
+      {
+        "id": "r3",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 10000
+        }
+      },
+      {
+        "id": "led1",
+        "profile_id": "generic_led_red",
+        "parameters": {}
+      },
+      {
+        "id": "q1",
+        "profile_id": "transistor_2n2222",
+        "parameters": {}
+      },
+      {
+        "id": "r4",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 1000
+        }
+      }
+    ],
+    "nets": [
+      {
+        "id": "net_5v",
+        "pins": [
+          "mcu1.5V",
+          "dht1.VCC",
+          "r2.2",
+          "r3.2",
+          "bz1.+"
+        ],
+        "role": "power",
+        "nominal_voltage_v": 5
+      },
+      {
+        "id": "net_gnd",
+        "pins": [
+          "mcu1.GND2",
+          "dht1.GND",
+          "led1.cathode",
+          "btn1.3",
+          "q1.E"
+        ],
+        "role": "ground"
+      },
+      {
+        "id": "net_dht",
+        "pins": [
+          "mcu1.D7",
+          "dht1.DATA",
+          "r2.1"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_buzzer",
+        "pins": [
+          "mcu1.D8",
+          "r4.2"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_led",
+        "pins": [
+          "mcu1.D9",
+          "r1.1"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_led_a",
+        "pins": [
+          "r1.2",
+          "led1.anode"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_btn",
+        "pins": [
+          "mcu1.D2",
+          "btn1.1",
+          "r3.1"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_bz_base",
+        "pins": [
+          "r4.1",
+          "q1.B"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_bz_low",
+        "pins": [
+          "bz1.-",
+          "q1.C"
+        ],
+        "role": "signal"
+      }
+    ],
+    "firmware_bindings": {
+      "DHT_PIN": "mcu1.D7",
+      "BUZZER_PIN": "mcu1.D8",
+      "LED_PIN": "mcu1.D9",
+      "BUTTON_PIN": "mcu1.D2"
+    }
+  },
+  "physical": {
+    "breadboard": {
+      "instance_id": "bb1",
+      "profile_id": "breadboard_830",
+      "position_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "placements": [
+      {
+        "instance_id": "mcu1",
+        "position_mm": [
+          117,
+          0,
+          -14
+        ],
+        "rotation_deg": 180,
+        "pin_to_hole": {}
+      },
+      {
+        "instance_id": "dht1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "VCC": "E18",
+          "DATA": "E19",
+          "NC": "E20",
+          "GND": "E21"
+        }
+      },
+      {
+        "instance_id": "r2",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "B19",
+          "2": "B23"
+        }
+      },
+      {
+        "instance_id": "r1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "E40",
+          "2": "E44"
+        }
+      },
+      {
+        "instance_id": "led1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "anode": "D44",
+          "cathode": "D45"
+        }
+      },
+      {
+        "instance_id": "bz1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "+": "E30",
+          "-": "E33"
+        }
+      },
+      {
+        "instance_id": "btn1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "E8",
+          "2": "F8",
+          "3": "E10",
+          "4": "F10"
+        }
+      },
+      {
+        "instance_id": "r3",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "C8",
+          "2": "C12"
+        }
+      },
+      {
+        "instance_id": "q1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "E": "A31",
+          "B": "A32",
+          "C": "A33"
+        }
+      },
+      {
+        "instance_id": "r4",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "B32",
+          "2": "B36"
+        }
+      }
+    ],
+    "wires": [
+      {
+        "id": "w_5v",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.5V"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+40"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_gnd",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.GND2"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-35"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_dht_v",
+        "from": {
+          "kind": "hole",
+          "hole": "A18"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+14"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_dht_g",
+        "from": {
+          "kind": "hole",
+          "hole": "A21"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-16"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_dht_d",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D7"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "A19"
+        },
+        "color": "#4ade80",
+        "net_id": "net_dht"
+      },
+      {
+        "id": "w_pullup",
+        "from": {
+          "kind": "hole",
+          "hole": "A23"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+18"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_bz",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D8"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "A36"
+        },
+        "color": "#2f6fd0",
+        "net_id": "net_buzzer"
+      },
+      {
+        "id": "w_led",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D9"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "C40"
+        },
+        "color": "#f5a524",
+        "net_id": "net_led"
+      },
+      {
+        "id": "w_led_g",
+        "from": {
+          "kind": "hole",
+          "hole": "A45"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-36"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_btn",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D2"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "D8"
+        },
+        "color": "#a78bfa",
+        "net_id": "net_btn"
+      },
+      {
+        "id": "w_btn_g",
+        "from": {
+          "kind": "hole",
+          "hole": "D10"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-7"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_btn_pu",
+        "from": {
+          "kind": "hole",
+          "hole": "A12"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+9"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_bridge_n_bot",
+        "from": {
+          "kind": "hole",
+          "hole": "BOT-25"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-26"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      },
+      {
+        "id": "w_bridge_p_bot",
+        "from": {
+          "kind": "hole",
+          "hole": "BOT+25"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+26"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_bz_v",
+        "from": {
+          "kind": "hole",
+          "hole": "A30"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT+24"
+        },
+        "color": "#d6484d",
+        "net_id": "net_5v"
+      },
+      {
+        "id": "w_q_e",
+        "from": {
+          "kind": "hole",
+          "hole": "B31"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-24"
+        },
+        "color": "#1f2937",
+        "net_id": "net_gnd"
+      }
+    ]
+  },
+  "behavior": {
+    "type": "threshold_alarm",
+    "threshold_c": 30,
+    "interval_ms": 2000
+  }
+}

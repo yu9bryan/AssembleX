@@ -1,0 +1,82 @@
+{
+  "component_id": "generic_led_red",
+  "display_name": "5mm 紅色 LED",
+  "category": "led",
+  "electrical": {
+    "supply_voltage_min_v": 1.8,
+    "supply_voltage_max_v": 2.2,
+    "recommended_gpio_current_ma": 20
+  },
+  "pins": [
+    {
+      "id": "anode",
+      "type": "passive",
+      "functions": [
+        "+"
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "cathode",
+      "type": "passive",
+      "functions": [
+        "-"
+      ],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [
+    {
+      "key": "color",
+      "label": "顏色",
+      "default": "red"
+    }
+  ],
+  "geometry": {
+    "asset_id": "led_5mm_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      5.0,
+      8.6,
+      5.0
+    ],
+    "placeholder": {
+      "shape": "led",
+      "color": "#ef4444"
+    },
+    "desktop_model": "models/led_5mm.glb",
+    "model_source": "vendor"
+  },
+  "behavior_model": "led_diode",
+  "evidence": [
+    {
+      "field": "electrical.supply_voltage_min_v",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    }
+  ]
+}

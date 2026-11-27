@@ -1,0 +1,70 @@
+{
+  "component_id": "capacitor_electrolytic_100uf",
+  "display_name": "100µF 電解電容",
+  "category": "passive",
+  "electrical": {
+    "supply_voltage_max_v": 25.0
+  },
+  "pins": [
+    {
+      "id": "+",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "-",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [
+    {
+      "key": "capacitance_uf",
+      "label": "電容值",
+      "unit": "µF",
+      "default": 100
+    }
+  ],
+  "geometry": {
+    "asset_id": "cap100_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      6.3,
+      11.0,
+      6.3
+    ],
+    "placeholder": {
+      "shape": "cylinder",
+      "color": "#1c2733"
+    },
+    "desktop_model": "models/capacitor_radial.glb",
+    "model_source": "vendor"
+  },
+  "behavior_model": "capacitor",
+  "evidence": []
+}

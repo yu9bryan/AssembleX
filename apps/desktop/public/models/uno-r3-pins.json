@@ -1,0 +1,408 @@
+{
+  "source": "Arduino UNO Rev3 官方 Eagle 檔 UNO-TH_Rev3e.brd",
+  "source_url": "https://docs.arduino.cc/static/6bb7a3ca51ebee82a252f60c0b418787/A000066-cad-files.zip",
+  "license": "CC BY-SA 4.0 (Arduino)",
+  "pcb_thickness_mm": 1.6,
+  "note": "z=0 為 PCB 上表面。排母插孔頂面另加排母高度（KiCad PinSocket 2.54mm 為 8.5mm 塑膠體，模型總高 10.10mm）。",
+  "board": {
+    "width_mm": 68.58,
+    "height_mm": 53.34,
+    "origin": "PCB 左下角 (0,0)，+X 向右、+Y 向上，單位 mm"
+  },
+  "mounting_holes": [
+    {
+      "x": 66.04,
+      "y": 35.56,
+      "drill_mm": 3.2
+    },
+    {
+      "x": 66.04,
+      "y": 7.62,
+      "drill_mm": 3.2
+    },
+    {
+      "x": 15.24,
+      "y": 50.8,
+      "drill_mm": 3.2
+    },
+    {
+      "x": 13.97,
+      "y": 2.54,
+      "drill_mm": 3.2
+    }
+  ],
+  "headers": {
+    "ICSP": {
+      "package": "2X03",
+      "rot": "R270",
+      "pins": [
+        {
+          "pad": "1",
+          "net": "MISO",
+          "x": 63.627,
+          "y": 30.48,
+          "z": 0.0,
+          "label": "MISO",
+          "pwm": false
+        },
+        {
+          "pad": "2",
+          "net": "+5V",
+          "x": 66.167,
+          "y": 30.48,
+          "z": 0.0,
+          "label": "5V",
+          "pwm": false
+        },
+        {
+          "pad": "3",
+          "net": "SCK",
+          "x": 63.627,
+          "y": 27.94,
+          "z": 0.0,
+          "label": "SCK",
+          "pwm": false
+        },
+        {
+          "pad": "4",
+          "net": "MOSI",
+          "x": 66.167,
+          "y": 27.94,
+          "z": 0.0,
+          "label": "MOSI",
+          "pwm": false
+        },
+        {
+          "pad": "5",
+          "net": "RESET",
+          "x": 63.627,
+          "y": 25.4,
+          "z": 0.0,
+          "label": "RESET",
+          "pwm": false
+        },
+        {
+          "pad": "6",
+          "net": "GND",
+          "x": 66.167,
+          "y": 25.4,
+          "z": 0.0,
+          "label": "GND",
+          "pwm": false
+        }
+      ]
+    },
+    "IOL": {
+      "package": "1X08",
+      "rot": "R180",
+      "pins": [
+        {
+          "pad": "1",
+          "net": "IO0",
+          "x": 63.5,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D0",
+          "pwm": false
+        },
+        {
+          "pad": "2",
+          "net": "IO1",
+          "x": 60.96,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D1",
+          "pwm": false
+        },
+        {
+          "pad": "3",
+          "net": "IO2",
+          "x": 58.42,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D2",
+          "pwm": false
+        },
+        {
+          "pad": "4",
+          "net": "IO3",
+          "x": 55.88,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D3",
+          "pwm": true
+        },
+        {
+          "pad": "5",
+          "net": "IO4",
+          "x": 53.34,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D4",
+          "pwm": false
+        },
+        {
+          "pad": "6",
+          "net": "IO5",
+          "x": 50.8,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D5",
+          "pwm": true
+        },
+        {
+          "pad": "7",
+          "net": "IO6",
+          "x": 48.26,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D6",
+          "pwm": true
+        },
+        {
+          "pad": "8",
+          "net": "IO7",
+          "x": 45.72,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D7",
+          "pwm": false
+        }
+      ]
+    },
+    "IOH": {
+      "package": "1X10",
+      "rot": "R180",
+      "pins": [
+        {
+          "pad": "1",
+          "net": "IO8",
+          "x": 41.656,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D8",
+          "pwm": false
+        },
+        {
+          "pad": "2",
+          "net": "IO9",
+          "x": 39.116,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D9",
+          "pwm": true
+        },
+        {
+          "pad": "3",
+          "net": "SS",
+          "x": 36.576,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D10",
+          "pwm": true
+        },
+        {
+          "pad": "4",
+          "net": "MOSI",
+          "x": 34.036,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D11",
+          "pwm": true
+        },
+        {
+          "pad": "5",
+          "net": "MISO",
+          "x": 31.496,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D12",
+          "pwm": false
+        },
+        {
+          "pad": "6",
+          "net": "SCK",
+          "x": 28.956,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "D13",
+          "pwm": false
+        },
+        {
+          "pad": "7",
+          "net": "GND",
+          "x": 26.416,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "GND",
+          "pwm": false
+        },
+        {
+          "pad": "8",
+          "net": "AREF",
+          "x": 23.876,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "AREF",
+          "pwm": false
+        },
+        {
+          "pad": "9",
+          "net": "AD4/SDA",
+          "x": 21.336,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "A4/SDA",
+          "pwm": false
+        },
+        {
+          "pad": "10",
+          "net": "AD5/SCL",
+          "x": 18.796,
+          "y": 50.8,
+          "z": 0.0,
+          "label": "A5/SCL",
+          "pwm": false
+        }
+      ]
+    },
+    "AD": {
+      "package": "1X06",
+      "rot": null,
+      "pins": [
+        {
+          "pad": "1",
+          "net": "AD0",
+          "x": 50.8,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "A0",
+          "pwm": false
+        },
+        {
+          "pad": "2",
+          "net": "AD1",
+          "x": 53.34,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "A1",
+          "pwm": false
+        },
+        {
+          "pad": "3",
+          "net": "AD2",
+          "x": 55.88,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "A2",
+          "pwm": false
+        },
+        {
+          "pad": "4",
+          "net": "AD3",
+          "x": 58.42,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "A3",
+          "pwm": false
+        },
+        {
+          "pad": "5",
+          "net": "AD4/SDA",
+          "x": 60.96,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "A4",
+          "pwm": false
+        },
+        {
+          "pad": "6",
+          "net": "AD5/SCL",
+          "x": 63.5,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "A5",
+          "pwm": false
+        }
+      ]
+    },
+    "POWER": {
+      "package": "1X08",
+      "rot": null,
+      "pins": [
+        {
+          "pad": "1",
+          "net": null,
+          "x": 27.94,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "NC",
+          "pwm": false
+        },
+        {
+          "pad": "2",
+          "net": "+5V",
+          "x": 30.48,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "IOREF",
+          "pwm": false
+        },
+        {
+          "pad": "3",
+          "net": "RESET",
+          "x": 33.02,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "RESET",
+          "pwm": false
+        },
+        {
+          "pad": "4",
+          "net": "+3V3",
+          "x": 35.56,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "3V3",
+          "pwm": false
+        },
+        {
+          "pad": "5",
+          "net": "+5V",
+          "x": 38.1,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "5V",
+          "pwm": false
+        },
+        {
+          "pad": "6",
+          "net": "GND",
+          "x": 40.64,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "GND",
+          "pwm": false
+        },
+        {
+          "pad": "7",
+          "net": "GND",
+          "x": 43.18,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "GND",
+          "pwm": false
+        },
+        {
+          "pad": "8",
+          "net": "VIN",
+          "x": 45.72,
+          "y": 2.54,
+          "z": 0.0,
+          "label": "VIN",
+          "pwm": false
+        }
+      ]
+    }
+  }
+}

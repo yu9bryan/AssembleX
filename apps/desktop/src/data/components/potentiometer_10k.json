@@ -1,0 +1,92 @@
+{
+  "component_id": "potentiometer_10k",
+  "display_name": "10kΩ 微調電阻（3296W）",
+  "category": "passive",
+  "electrical": {},
+  "pins": [
+    {
+      "id": "1",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "W",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "3",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    }
+  ],
+  "parameters": [
+    {
+      "key": "resistance_ohm",
+      "label": "電阻值",
+      "unit": "Ω",
+      "default": 10000
+    }
+  ],
+  "geometry": {
+    "asset_id": "pot10k_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      9.53,
+      10.03,
+      4.83
+    ],
+    "placeholder": {
+      "shape": "cylinder",
+      "color": "#1b5ba8"
+    },
+    "desktop_model": "models/trimpot_3296w.glb",
+    "model_transform": {
+      "rotation_deg": [
+        0,
+        180,
+        0
+      ]
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "potentiometer",
+  "evidence": []
+}

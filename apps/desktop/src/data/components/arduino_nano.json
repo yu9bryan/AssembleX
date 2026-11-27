@@ -1,0 +1,597 @@
+{
+  "component_id": "arduino_nano",
+  "manufacturer": "Arduino",
+  "display_name": "Arduino Nano",
+  "category": "microcontroller_board",
+  "revision": "3.x",
+  "electrical": {
+    "logic_voltage_v": 5.0,
+    "supply_voltage_min_v": 7.0,
+    "supply_voltage_max_v": 12.0,
+    "recommended_gpio_current_ma": 20,
+    "absolute_max_gpio_current_ma": 40
+  },
+  "parameters": [],
+  "pins": [
+    {
+      "id": "D13",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "3V3",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "AREF",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A0",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A1",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        10.16,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A2",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        12.7,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A3",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        15.24,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A4",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        17.78,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A5",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        20.32,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A6",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        22.86,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "A7",
+      "type": "analog_in",
+      "functions": [],
+      "position_mm": [
+        25.4,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "5V",
+      "type": "power_out",
+      "functions": [],
+      "position_mm": [
+        27.94,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "RESET",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        30.48,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "GND1",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        33.02,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "VIN",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        35.56,
+        0,
+        15.24
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D12",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D11",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D10",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D9",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D8",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        10.16,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D7",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        12.7,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D6",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        15.24,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D5",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        17.78,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D4",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        20.32,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D3",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        22.86,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D2",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        25.4,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "GND2",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        27.94,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "RESET2",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        30.48,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D0",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        33.02,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "D1",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        35.56,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    }
+  ],
+  "geometry": {
+    "asset_id": "nano_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      43.18,
+      8.0,
+      17.78
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#1d5f8a"
+    },
+    "desktop_model": "models/arduino_nano.glb",
+    "model_transform": {
+      "rotation_deg": [
+        0,
+        180,
+        0
+      ],
+      "offset_mm": [
+        17.46,
+        2.5,
+        7.54
+      ],
+      "materials": [
+        {
+          "match": "CASE_USB",
+          "color": "#8a8e95",
+          "metal": 0.3,
+          "rough": 0.6,
+          "transmission": 0,
+          "env": 0.6
+        },
+        {
+          "match": "BODY_pcb",
+          "color": "#1a4d78",
+          "metal": 0,
+          "rough": 0.5,
+          "transmission": 0
+        },
+        {
+          "match": "BODY_ic",
+          "color": "#161618",
+          "metal": 0,
+          "rough": 0.55,
+          "transmission": 0
+        },
+        {
+          "match": "PIN_lead",
+          "color": "#d6b25a",
+          "metal": 0.95,
+          "rough": 0.28,
+          "transmission": 0,
+          "env": 1.0
+        }
+      ]
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "avr_atmega328p",
+  "evidence": [
+    {
+      "field": "pins[].position_mm",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified",
+      "source": "Arduino Nano 標準 0.6 吋雙排 30 腳"
+    }
+  ]
+}

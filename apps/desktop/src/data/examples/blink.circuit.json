@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "project_id": "blink_demo",
+  "revision": 1,
+  "units": "mm",
+  "logical": {
+    "board": {
+      "instance_id": "mcu1",
+      "profile_id": "arduino_uno_r3",
+      "fqbn": "arduino:avr:uno"
+    },
+    "components": [
+      {
+        "id": "r1",
+        "profile_id": "resistor_axial",
+        "parameters": {
+          "resistance_ohm": 330
+        }
+      },
+      {
+        "id": "led1",
+        "profile_id": "generic_led_red",
+        "parameters": {}
+      }
+    ],
+    "nets": [
+      {
+        "id": "net_signal",
+        "pins": [
+          "mcu1.D9",
+          "r1.1"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_led",
+        "pins": [
+          "r1.2",
+          "led1.anode"
+        ],
+        "role": "signal"
+      },
+      {
+        "id": "net_ground",
+        "pins": [
+          "led1.cathode",
+          "mcu1.GND2"
+        ],
+        "role": "ground"
+      }
+    ],
+    "firmware_bindings": {
+      "LED_PIN": "mcu1.D9"
+    }
+  },
+  "physical": {
+    "breadboard": {
+      "instance_id": "bb1",
+      "profile_id": "breadboard_830",
+      "position_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "placements": [
+      {
+        "instance_id": "mcu1",
+        "position_mm": [
+          117,
+          0,
+          -14
+        ],
+        "rotation_deg": 180,
+        "pin_to_hole": {}
+      },
+      {
+        "instance_id": "r1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "1": "E10",
+          "2": "E14"
+        }
+      },
+      {
+        "instance_id": "led1",
+        "position_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": 0,
+        "pin_to_hole": {
+          "anode": "D14",
+          "cathode": "D15"
+        }
+      }
+    ],
+    "wires": [
+      {
+        "id": "w_sig",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.D9"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "C10"
+        },
+        "color": "#f5a524",
+        "net_id": "net_signal"
+      },
+      {
+        "id": "w_gnd_rail",
+        "from": {
+          "kind": "pin",
+          "pin": "mcu1.GND2"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-25"
+        },
+        "color": "#1f2937",
+        "net_id": "net_ground"
+      },
+      {
+        "id": "w_gnd_led",
+        "from": {
+          "kind": "hole",
+          "hole": "A15"
+        },
+        "to": {
+          "kind": "hole",
+          "hole": "BOT-11"
+        },
+        "color": "#1f2937",
+        "net_id": "net_ground"
+      }
+    ]
+  }
+}

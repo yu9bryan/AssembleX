@@ -1,0 +1,107 @@
+{
+  "component_id": "pushbutton_6mm",
+  "display_name": "6mm 輕觸開關",
+  "category": "passive",
+  "electrical": {},
+  "pins": [
+    {
+      "id": "1",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "2",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0,
+        0,
+        7.62
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "3",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    },
+    {
+      "id": "4",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        7.62
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "through_hole_lead",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "btn6_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      6.0,
+      5.0,
+      6.0
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#2e3135"
+    },
+    "desktop_model": "models/pushbutton_6mm.glb",
+    "model_transform": {
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ],
+      "offset_mm": [
+        0.29,
+        0,
+        7.06
+      ]
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "switch_spst",
+  "evidence": []
+}

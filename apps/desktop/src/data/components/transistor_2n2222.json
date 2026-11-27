@@ -1,0 +1,90 @@
+{
+  "component_id": "transistor_2n2222",
+  "display_name": "2N2222 NPN 電晶體",
+  "category": "passive",
+  "electrical": {
+    "absolute_max_gpio_current_ma": 800
+  },
+  "pins": [
+    {
+      "id": "E",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "B",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "C",
+      "type": "passive",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "2n2222_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      5.2,
+      5.0,
+      4.5
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#17181b"
+    },
+    "desktop_model": "models/to92.glb",
+    "model_transform": {
+      "tint_body": true
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "npn",
+  "evidence": [
+    {
+      "field": "electrical.absolute_max_gpio_current_ma",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    }
+  ]
+}

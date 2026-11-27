@@ -1,0 +1,34 @@
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+tools/out/
+tools/samples/
+
+# 前端（apps/desktop、packages/*）
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 本機金鑰（不進 git）
+.env.local
+*.env.local
+
+# 建置產物與大型模型權重（不進 git）
+apps/desktop/src-tauri/target/
+build-seg/
+*.pt
+
+# 不上傳：影片、企劃書與 CAD 原檔、編譯輸出
+docs/video/
+docs/cad/
+docs/VIDEO_PLAN.md
+docs/*.pdf
+*.pdf
+build-dev/
+build-sim/
+docs/architecture.md
+docs/auto-label-pipeline.md
+docs/*
+!docs/images/

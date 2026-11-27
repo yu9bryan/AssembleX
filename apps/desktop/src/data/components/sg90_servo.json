@@ -1,0 +1,115 @@
+{
+  "component_id": "sg90_servo",
+  "display_name": "SG90 伺服馬達",
+  "category": "actuator",
+  "electrical": {
+    "supply_voltage_min_v": 4.8,
+    "supply_voltage_max_v": 6.0,
+    "quiescent_current_ma": 10,
+    "absolute_max_gpio_current_ma": 700
+  },
+  "pins": [
+    {
+      "id": "GND",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "VCC",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "SIG",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "sg90_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      22.8,
+      32.0,
+      12.2
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#2a5aa8"
+    },
+    "desktop_model": "models/sg90_servo.glb",
+    "model_transform": {
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ],
+      "offset_mm": [
+        14.04,
+        0,
+        -8.0
+      ],
+      "materials": [
+        {
+          "match": "a77df7",
+          "color": "#2b4677",
+          "rough": 0.45,
+          "transmission": 0.15
+        },
+        {
+          "match": "4a1cf3",
+          "color": "#e4e4e2",
+          "rough": 0.6
+        }
+      ]
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "servo_pwm",
+  "evidence": [
+    {
+      "field": "electrical.absolute_max_gpio_current_ma",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    }
+  ]
+}

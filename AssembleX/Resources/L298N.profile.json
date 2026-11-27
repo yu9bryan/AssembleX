@@ -1,0 +1,15 @@
+{
+ "id": "L298N",
+ "displayName": "L298N 馬達驅動板",
+ "mesh": "L298N.mesh",
+ "boardWidthMM": 43.5,
+ "boardDepthMM": 43.5,
+ "baseHueMin": 88,
+ "baseHueMax": 111,
+ "satMin": 22,
+ "baseRGB": [
+  0.694,
+  0.098,
+  0.098
+ ]
+}

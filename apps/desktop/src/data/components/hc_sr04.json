@@ -1,0 +1,124 @@
+{
+  "component_id": "hc_sr04",
+  "display_name": "HC-SR04 超音波測距",
+  "category": "sensor",
+  "electrical": {
+    "supply_voltage_min_v": 5.0,
+    "supply_voltage_max_v": 5.0,
+    "quiescent_current_ma": 15
+  },
+  "pins": [
+    {
+      "id": "VCC",
+      "type": "power_in",
+      "functions": [],
+      "position_mm": [
+        0.0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "TRIG",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        2.54,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "ECHO",
+      "type": "digital_io",
+      "functions": [],
+      "position_mm": [
+        5.08,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    },
+    {
+      "id": "GND",
+      "type": "ground",
+      "functions": [],
+      "position_mm": [
+        7.62,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "connector_type": "male_header",
+      "aliases": []
+    }
+  ],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "hcsr04_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      45.0,
+      21.0,
+      16.5
+    ],
+    "placeholder": {
+      "shape": "box",
+      "color": "#1b3f82"
+    },
+    "desktop_model": "models/hc_sr04.glb",
+    "model_transform": {
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ],
+      "offset_mm": [
+        3.81,
+        11.0,
+        3.0
+      ]
+    },
+    "model_source": "vendor"
+  },
+  "behavior_model": "ultrasonic",
+  "evidence": [
+    {
+      "field": "electrical.supply_voltage_min_v",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    },
+    {
+      "field": "pins[].position_mm",
+      "document_id": null,
+      "page": null,
+      "verification_status": "unverified"
+    }
+  ]
+}

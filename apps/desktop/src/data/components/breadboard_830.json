@@ -1,0 +1,23 @@
+{
+  "component_id": "breadboard_830",
+  "display_name": "830 孔麵包板",
+  "category": "breadboard",
+  "electrical": {},
+  "pins": [],
+  "parameters": [],
+  "geometry": {
+    "asset_id": "breadboard_830_v1",
+    "units": "mm",
+    "coordinate_system": "right_handed_y_up",
+    "bbox_mm": [
+      165.1,
+      8.5,
+      54.4
+    ],
+    "placeholder": {
+      "shape": "breadboard",
+      "color": "#f1f0ec"
+    }
+  },
+  "evidence": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "assemblex",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AssembleX monorepo — Studio (desktop), AR (iOS), Core (backend)",
+  "workspaces": [
+    "packages/*",
+    "apps/desktop"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@assemblex/desktop",
+    "build": "npm run build --workspace=@assemblex/circuit-schema && npm run build --workspace=@assemblex/desktop",
+    "test": "npm run test --workspace=@assemblex/circuit-schema"
+  }
+}
